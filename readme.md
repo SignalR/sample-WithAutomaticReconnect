@@ -38,6 +38,23 @@ This demo provides   easy way to show the new `withAutomaticReconnect`, `onrecon
     });
     ```
 
+1. Make sure to mention that the automatic reconnection is available today via `npm install @aspnet/signalr@next`.
+
+1. Run `dotnet run` in the directory with the app.
+
+1. Open the site in the browser at https://localhost:5001.
+
+1. Open the debugging tools and call out how the connection has been established.
+
+    ![Connected client](media/connect.png)
+
+1. Stop the app from running (either via `Ctrl-C` or stop the debugger). Flip back to the browser to show how the client has been disconnected.
+
+    ![Connected client](media/disconnected.png)
+
+1. Restart the app and flip back to the browser window - don't refresh it - and wait until the client reconnects. Note, you may need to tune your values passed to `withAutomaticReconnect` depending on your own pace.
+
+    ![Connected client](media/reconnected.png)
+
 1. Mention that the docs are available for the preview at https://aka.ms/signalr/auto-reconnect.
 
-1. Make sure to mention that the automatic reconnection is available today via `npm install @aspnet/signalr@next`.
