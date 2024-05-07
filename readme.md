@@ -1,3 +1,5 @@
+We are no longer taking changes to this repository. It exists as an archived reference only.
+
 # SignalR Automatic Reconnection Demo
 
 This demo provides   easy way to show the new `withAutomaticReconnect`, `onreconnected`, and `onreconnecting` functionality resident in the 3.0 preview 6 release. Here are the steps to run the demo:
